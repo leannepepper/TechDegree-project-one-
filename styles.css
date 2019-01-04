@@ -57,8 +57,9 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/rsz_unplashphoto-sandiego.jpg') no-repeat top center ;
   background-size: cover;
+  background-position: center; 
   overflow: hidden;
   padding-top: 60px;
 }
@@ -70,11 +71,13 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 2px solid white;
+  object-fit: cover;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  
 }
 .tag {
   background-color: #efefef;
@@ -83,13 +86,15 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+  box-shadow: 5px 5px 5px #888888;
 } 
 .location {
   background-color: #222;
   color: yellow;
+  letter-spacing: 1px;
 }
 .card {
-  margin: 30px;
+  margin: 20px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
@@ -118,6 +123,18 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+.flex {
+  display: flex; 
+  flex-wrap: wrap; 
+}
+.hobbies {
+  
+   padding: 10px; 
+}
+.hobbies li {
+ 
+  padding: 5px;  
 }
 
 footer {
