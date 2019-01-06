@@ -56,9 +56,8 @@
   }
   
   header {
-    text-align: center;
-    height: 550px;
     display: flex;
+    height: 409px;
     align-items: center;
     background: url('images/rsz_unsplash-experience.jpg') no-repeat top center ;
     background-size: cover;
@@ -66,19 +65,19 @@
     overflow: hidden;
     padding-top: 60px;
     
+    
   }
   header {
     line-height: 1.5;
   } 
   .experience {
-    background-color: #222;
-    padding: 10px 15px;
+    background-color: #efefef;
+    color: black;
+    padding: 10px;
     border-radius: 5px;
-    color: yellow;
-    font-size: 32px;
-    letter-spacing: 3px;
+    display: table;
     margin: 10px auto;
-    box-shadow: 1px 1px 5px #888888;
+    box-shadow: 5px 5px 5px #888888;
   }
   ul.skills {
     padding: 0;
@@ -121,6 +120,7 @@
   .card {
     margin: 20px;
     padding: 20px 40px 40px;
+    flex: 1 45%;
     max-width: 500px;
     text-align: left;
     background: #fff;
